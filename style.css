@@ -1,0 +1,322 @@
+h1 {
+  font-family: Poppins;
+  src: url(font/Poppins.zip);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 72px;
+}
+
+h2 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.card {
+  border-radius: 2%;
+}
+
+/* navbar */
+/* .nav-item {
+  font-family: Poppins;
+  src: url(font/Poppins.zip);
+  background-color: transparent;
+} */
+
+/* home */
+.jumbotron {
+  padding-top: 10rem;
+  /* background: linear-gradient(209.76deg, #27dda1 0%, #3293d0 51.75%, #3e91d7 63.87%, #026eda 100%); */
+  padding-bottom: 10rem;
+
+  min-height: 100vh;
+  background-color: #eaeaea;
+  background-image: var(--gradient1);
+  background-size: 200%;
+  animation: gradient-animation 2s infinite alternate;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+:root {
+  --gradient1: linear-gradient(68.2deg, rgba(255, 202, 88, 1) 0%, rgba(139, 73, 255, 1) 100.2%);
+  --gradient2: linear-gradient(110.1deg, rgba(30, 2, 83, 1) 44.2%, rgba(198, 55, 160, 1) 138.2%);
+  --gradient3: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+
+@keyframes animation {
+  0% {
+    background-position: right;
+  }
+
+  100% {
+    background-position: left;
+  }
+}
+
+.slogan {
+  font-size: 3rem;
+  text-align: left;
+
+  background-image: var(--gradient2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.7));
+  animation: animation 10s infinite alternate;
+}
+
+.img-fluid {
+  margin-left: 0.5rem;
+}
+
+.home {
+  margin-right: -2rem;
+  margin-left: 2rem;
+}
+
+.btn-home {
+  width: 281px;
+  height: 52.69px;
+  background: #2080d9;
+  border-radius: 50px;
+}
+
+/* akhir home */
+
+/* about */
+.about {
+  padding-top: 5rem;
+}
+
+.about1 {
+  font-family: Poppins;
+  src: url(font/Poppins.zip);
+  margin-bottom: 5rem;
+  margin-top: 3.5rem;
+  width: 281px;
+  height: 52.69px;
+  left: 0px;
+  top: 305px;
+}
+
+.about2 {
+  margin-bottom: 5rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.imgsvg {
+  padding-left: 10rem;
+}
+
+.text-about {
+  width: 1141px;
+  height: 350px;
+  left: 0px;
+  top: 204px;
+}
+
+.foto-about {
+  width: 10rem;
+  height: 10rem;
+}
+
+.foto-ust {
+  margin-left: 30rem;
+}
+
+/* akhir about */
+
+/* team */
+
+.team {
+  background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.head-team {
+  margin-left: 5rem;
+}
+.text-team {
+  width: 900px;
+  height: 70px;
+  margin-bottom: 10rem;
+}
+
+.foto-web {
+  margin-left: 20rem;
+}
+
+.foto-webs {
+  margin-left: 50rem;
+  margin-top: -25.5rem;
+}
+
+.design {
+  margin-top: 15rem;
+}
+
+.foto-design {
+  margin-left: 34rem;
+}
+
+/* akhir team */
+
+/* product */
+.product {
+  padding-bottom: 5rem;
+}
+
+.card-img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.card-product {
+  width: 352.67px;
+  height: 578px;
+}
+
+.card-title {
+  margin-right: 10rem;
+}
+
+.head-product {
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+}
+
+.img-product {
+  width: 6cm;
+  height: 10cm;
+  margin-top: 4rem;
+  margin: auto;
+}
+
+/* akhir product */
+
+/* lokasi */
+.contact {
+  padding: 1rem 7% 1.4rem;
+  background-color: #0093e9;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  color: black;
+}
+
+.contact h2 span {
+  color: #79e0ee;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact .row {
+  display: flex;
+  margin-top: 2rem;
+  background-color: #79e0ee;
+}
+
+.contact .roe .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contact .row form .input-group {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: antiquewhite;
+  border: 1px solid;
+}
+
+.contact .row form .input-group input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  background: none;
+}
+
+.contact .row form .btn1 {
+  margin-top: 3rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+.contact .row {
+  flex-wrap: wrap;
+}
+
+.contact .row .map {
+  height: 30rem;
+  width: 35rem;
+  margin-top: 1rem;
+}
+
+/* akhir lokasi
+
+/* footer */
+
+footer {
+  padding-bottom: 5rem;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+
+.footer1 {
+  margin-top: 9rem;
+  margin-left: 5rem;
+  font-size: 52px;
+  margin-bottom: 1rem;
+
+  background-image: linear-gradient(106.4deg, rgba(255, 104, 192, 1) 11.1%, rgba(104, 84, 249, 1) 81.3%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.7));
+}
+
+.footer2 {
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.logo {
+  height: 350px;
+  width: 350;
+  margin-top: 2.5rem;
+  margin-left: 10rem;
+}
+
+/* akhir footer */
